@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { LastNamePipe } from './last-name.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WelcomeComponent,
+    LastNamePipe
   ],
   imports: [
     BrowserModule,
