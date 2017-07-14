@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { routing } from './app.routing';
 import { LastNamePipe } from './last-name.pipe';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { LastNamePipe } from './last-name.pipe';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
