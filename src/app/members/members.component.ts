@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./members.component.css']
 })
 export class MembersComponent {
+  constructor(private router: Router){}
   members: Member[] = [
    new Member("Rose", "UX Designer",
        "A student at Epicodus, Rose loves cats, making web pages beautiful, and creating accessiblity through technology", true, 1),
@@ -22,14 +23,8 @@ export class MembersComponent {
    new Member("Leah", "JavaScript Developer",
        "Leah is smart both on and off the computer screen, utilizing her previous experience of PHP to create interactive web pages that will blow your mind. When she isn't coding or working hard on a JavaScript solution, you can find her hanging out with her partner Dave and her daughter", true, 6)
  ];
- 
+
  goToDetailPage(clickedMember: Member) {
      this.router.navigate(['members', clickedMember.id]);
-   }
-
-  constructor(private router: Router){}
-
-  ngOnInit() {
-  }
-
+  };
 }

@@ -1,7 +1,7 @@
 <h2>Members</h2>
 
-<div *ngFor="let member of memberss"(click)="goToDetailPage(member)" class="panel panel-default">
+<div *ngFor="let member of members"(click)="goToDetailPage(member)" class="panel panel-default">
   <div class="panel-body">
-    <h3><em>{{member.name}}</em> by {{member.jobTitle}}</h3>
+    <h3>{{member.name}} <em>{{member.jobTitle}}</em></h3>
   </div>
 </div>
