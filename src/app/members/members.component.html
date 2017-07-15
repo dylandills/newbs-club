@@ -1,3 +1,7 @@
 <h2>Members</h2>
 
-<p>All our fine members will be listed here shortly!</p>
+<div *ngFor="let member of memberss"(click)="goToDetailPage(member)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{member.name}}</em> by {{member.jobTitle}}</h3>
+  </div>
+</div>

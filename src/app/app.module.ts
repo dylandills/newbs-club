@@ -9,6 +9,7 @@ import { routing } from './app.routing';
 import { LastNamePipe } from './last-name.pipe';
 import { AboutComponent } from './about/about.component';
 import { MembersComponent } from './members/members.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MembersComponent } from './members/members.component';
     WelcomeComponent,
     LastNamePipe,
     AboutComponent,
-    MembersComponent
+    MembersComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,
