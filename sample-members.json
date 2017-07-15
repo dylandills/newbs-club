@@ -2,19 +2,16 @@
     "name": "Rose",
     "jobTitle": "UX Designer",
     "description": "A student at Epicodus, Rose loves cats, making web pages beautiful, and creating accessiblity through technology",
-    "lookingJob": true,
     "id": "1"
     }, {
     "name": "Karina",
     "jobTitle": "Web Designer",
     "description": "A student at Epicodus, Karina loves her tiny children (whom are furry and named Biggie and Trouble), exploring different technologies, and loathes Comic Sans",
-    "lookingJob": true,
     "id": "2"
       }, {
     "name": "Connor",
     "jobTitle": "UX/UI Designer",
     "description": "Another student at Epicodus, Connor is always down to travel and buy new shoes. When not seeing the sites or getting the latest Nikes, Connor can be found working hard on a JavaScript problem, or creating the next designer masterpiece",
-    "lookingJob": true,
     "id": "3"
   }]
 }
