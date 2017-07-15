@@ -1,6 +1,6 @@
 <div>
-  <h3>{{memberToDisplay.name}}</h3>
-  <h4>{{memberToDisplay.jobTitle}}</h4>
-  <h4>{{memberToDisplay.lookingJob}}</h4>
-  <p>{{memberToDisplay.description}}</p>
+  <h3>{{(memberToDisplay | async)?.name}}</h3>
+  <h4>{{(memberToDisplay | async)?.jobTitle}}</h4>
+  <p>{{(memberToDisplay | async)?.description}}</p>
+  <h4>{{(memberToDisplay | async)?.lookingJob}}</h4>
 </div>
